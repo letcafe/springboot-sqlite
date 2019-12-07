@@ -11,6 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
+import java.util.UUID;
 
 
 @RunWith(SpringRunner.class)
@@ -22,10 +23,17 @@ public class DemoApplicationTests {
     private HelloService helloService;
 
     @Test
-    public void contextLoads() {
+    public void selectAll() {
         List<?> list = helloService.selectAll();
         logger.info("get list= {}", list);
         assert list.size() >= 1;
     }
 
+    @Test
+    public void insertOne() {
+        String uuid = UUID.randomUUID().toString();
+        Boolean res = helloService.insert(new HelloModel(uuid, uuid));
+        logger.info("insert result= {}", res);
+        assert res;
+    }
 }
