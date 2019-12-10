@@ -2,12 +2,10 @@ package cn.letcafe.mapper;
 
 import cn.letcafe.model.HelloModel;
 import org.apache.ibatis.annotations.*;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 
 @Mapper
-@Component
 public interface HelloMapper {
 
     // 插入 并查询id 赋给传入的对象
