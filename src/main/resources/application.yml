@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    data-username: root
+    data-password: root
+  profiles:
+    active: daily

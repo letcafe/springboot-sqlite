@@ -16,7 +16,7 @@ import java.util.UUID;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = {DemoApplication.class})
-public class DemoApplicationTests {
+public class DemoApplicationTest {
     private static final Logger logger = LoggerFactory.getLogger(DemoApplication.class);
 
     @Autowired
