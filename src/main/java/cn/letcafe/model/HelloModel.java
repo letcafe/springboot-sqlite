@@ -1,4 +1,4 @@
-package com.example.demo.Model;
+package cn.letcafe.model;
 
 public class HelloModel {
     private Integer id;

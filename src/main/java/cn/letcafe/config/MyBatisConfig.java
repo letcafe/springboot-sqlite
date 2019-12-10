@@ -1,4 +1,4 @@
-package com.example.demo.Config;
+package cn.letcafe.config;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;

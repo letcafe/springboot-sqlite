@@ -1,7 +1,7 @@
-package com.example.demo;
+package cn.letcafe;
 
-import com.example.demo.Model.HelloModel;
-import com.example.demo.Service.HelloService;
+import cn.letcafe.model.HelloModel;
+import cn.letcafe.service.HelloService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;

@@ -1,8 +1,8 @@
-package com.example.demo.Controller;
+package cn.letcafe.controller;
 
-import com.example.demo.Model.HelloModel;
-import com.example.demo.Model.ReqBody;
-import com.example.demo.Service.HelloService;
+import cn.letcafe.model.ReqBody;
+import cn.letcafe.service.HelloService;
+import cn.letcafe.model.HelloModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

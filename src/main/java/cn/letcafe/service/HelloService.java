@@ -1,7 +1,7 @@
-package com.example.demo.Service;
+package cn.letcafe.service;
 
-import com.example.demo.Mapper.HelloMapper;
-import com.example.demo.Model.HelloModel;
+import cn.letcafe.mapper.HelloMapper;
+import cn.letcafe.model.HelloModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,7 @@
-package com.example.demo.Mapper;
+package cn.letcafe.mapper;
 
-import com.example.demo.Model.*;
+import cn.letcafe.model.HelloModel;
+import com.example.demo.model.*;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Component;
 
