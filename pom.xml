@@ -56,5 +56,29 @@
         </plugins>
     </build>
 
+    <profiles>
+        <profile>
+            <id>daily</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <profile.active>daily</profile.active>
+            </properties>
+        </profile>
+        <profile>
+            <id>pre</id>
+            <properties>
+                <profile.active>pre</profile.active>
+            </properties>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <properties>
+                <profile.active>prod</profile.active>
+            </properties>
+        </profile>
+    </profiles>
+
 
 </project>

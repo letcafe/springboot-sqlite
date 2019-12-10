@@ -4,4 +4,4 @@ spring:
     data-username: root
     data-password: root
   profiles:
-    active: daily
+    active: @profile.active@
