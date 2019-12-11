@@ -1,3 +1,3 @@
 spring:
   datasource:
-    url: jdbc:sqlite:db-demo.db
+    url: jdbc:sqlite://E:/IDEA_proj/springboot-sqlite/db-demo.db
