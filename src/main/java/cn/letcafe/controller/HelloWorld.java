@@ -28,6 +28,12 @@ public class HelloWorld {
         return helloService.selectAll();
     }
 
+    @RequestMapping("/info/{id}")
+    public HelloModel getById(@PathVariable(name = "id") Integer id) {
+        return helloService.select(id);
+    }
+
+
     @RequestMapping(value = "/post", method = RequestMethod.POST)
     public String post(@RequestBody ReqBody map) {
         String reqInput = "输入的姓名是" + map.getName() + ",电子邮件是:" + map.getEmail();
