@@ -8,6 +8,5 @@ spring:
 server:
   servlet:
     context-path: /spring-sqlite
-    application-display-name: SpringBoot + Sqlite3 Demo Application
 mybatis:
   mapper-locations: cn.letcafe.mapper.*
