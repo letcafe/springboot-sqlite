@@ -3,11 +3,13 @@ package cn.letcafe.controller;
 import cn.letcafe.model.ReqBody;
 import cn.letcafe.service.HelloService;
 import cn.letcafe.model.HelloModel;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@Slf4j(topic = "http")
 @RestController
 public class HelloWorld {
     private final HelloService helloService;
