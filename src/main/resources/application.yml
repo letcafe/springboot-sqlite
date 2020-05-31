@@ -4,7 +4,7 @@ spring:
     data-username: root
     data-password: root
   profiles:
-    active: @profile.active@
+    active: daily
 server:
   servlet:
     context-path: /spring-sqlite

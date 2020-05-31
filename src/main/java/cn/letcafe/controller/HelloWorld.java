@@ -27,7 +27,9 @@ public class HelloWorld {
 
     @RequestMapping("/list")
     public List<HelloModel> list() {
-        return helloService.selectAll();
+        List<HelloModel> models = helloService.selectAll();
+        logger.info("[models.size()] = " + models.size());
+        return models;
     }
 
     @RequestMapping("/info/{id}")
